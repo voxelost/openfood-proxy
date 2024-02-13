@@ -6,6 +6,12 @@ Tools you'l need:
 - `rustup` with `wasm32-unknown-unknown` toolchain installed
 - `node`, `npm` or `yarn` and (`wranger` CLI tool)[https://www.npmjs.com/package/wrangler] installed - you can read more about this (here)[https://developers.cloudflare.com/workers/wrangler/install-and-update/]
 
+## Initial setup
+```sh
+cp example.wrangler.toml wrangler.toml
+wrangler kv:namespace create "OPENFOODS_CACHE" # for a preview namespace add `--preview`
+```
+then setup the `kv_namespaces` TOML key as specified in the `wrangler` command output
 
 ### Develop locally
 ```sh
