@@ -2,6 +2,10 @@ name = "openfood-proxy"
 workers_dev = true
 compatibility_date = "2022-01-20"
 main = "build/worker/shim.mjs"
+kv_namespaces = [
+  { binding = "OPENFOODS_CACHE", preview_id = "0123456789abcdef0123456789abcdef", id = "0123456789abcdef0123456789abcdef" }
+]
+
 
 [vars]
 WORKERS_RS_VERSION = "0.0.9"
