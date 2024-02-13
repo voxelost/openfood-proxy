@@ -3,3 +3,5 @@ target/
 wasm-pack.log
 build/
 node_modules/
+wrangler.toml
+.wrangler
