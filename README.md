@@ -4,7 +4,7 @@ This is a simple wrapper around the [Open Food Facts](https://world.openfoodfact
 ## How do i deploy it
 Tools you'l need:
 - `rustup` with `wasm32-unknown-unknown` toolchain installed
-- `node`, `npm` or `yarn` and (`wranger` CLI tool)[https://www.npmjs.com/package/wrangler] installed - you can read more about this (here)[https://developers.cloudflare.com/workers/wrangler/install-and-update/]
+- `node`, `npm` or `yarn` and [`wranger` CLI tool](https://www.npmjs.com/package/wrangler) installed - you can read more about this [here](https://developers.cloudflare.com/workers/wrangler/install-and-update/)
 
 ## Initial setup
 ```sh
